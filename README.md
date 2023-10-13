@@ -4,6 +4,10 @@
 ## Demo
 ![Tool Demo](https://github.com/asad1996172/Developers-Social-Media/blob/master/demo%20(2).gif)
 
+## Setup Demo
+[![Video Instructions to Run Code](https://i.ytimg.com/vi/k3BE1CMEEVU/hqdefault.jpg)](https://www.youtube.com/watch?v=k3BE1CMEEVU)
+
+
 This Web application contains the following functionalities:
 * Guest page showing a list of all developers
 * Sign In/ Sign Up
