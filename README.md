@@ -28,5 +28,6 @@ npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extens
 ## How to Run
 1. Make sure MongoDB is installed and running on your system
 1. Clone this repo ``` git clone https://github.com/asad1996172/Developers-Social-Media ```
-1. Change config/default.json to add your own github API keys and MongoDB URI
-1. Run code using ``` npm run dev ``` and open localhost:3000 in your browser
+1. Update `.env.test` with the env vars and rename it to `.env`
+1. Run server using `npm run server`
+1. Run client using `npm run client`
