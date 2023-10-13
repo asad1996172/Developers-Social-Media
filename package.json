@@ -7,7 +7,7 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "build": "npm run build --prefix client",
+    "install_all": "npm install && npm install --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
