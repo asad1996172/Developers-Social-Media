@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const connectDB = require('./config/db');
 
@@ -19,7 +20,7 @@ app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/posts', require('./routes/api/posts'));
 
-const PORT = process.env.PORT || 5000; // look for default port else set to 5000 for local
+const PORT = process.env.PORT;
 
 app.listen(PORT, ()=>{
     console.log(`Server started on PORT ${PORT}`);
